@@ -4,7 +4,7 @@ import openai
 
 app = Flask(__name__)
 socketio = SocketIO(app, manage_session=False)
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 @app.route("/")
